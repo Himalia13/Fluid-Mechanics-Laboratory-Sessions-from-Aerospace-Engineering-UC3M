@@ -1,93 +1,78 @@
-# 🔬 Dynamic Systems Simulations
+# Fluid Mechanics Laboratory Sessions
+## Universidad Carlos III de Madrid (UC3M) - Aerospace Engineering
 
-This repository contains simulations and analyses of various dynamic systems in the field of physics, with MATLAB implementations and detailed documentation in PDF format.
+This repository contains laboratory sessions, experimental data, and analysis materials for the Fluid Mechanics course at UC3M's Aerospace Engineering program. The labs provide hands-on experience with fundamental fluid mechanics concepts through practical experiments and numerical simulations.
 
-## 📑 Table of Contents
-
-1. [Repository Structure](#-repository-structure)
-2. [Project Descriptions](#-project-descriptions)
-   - [Compound Double Pendulum](#1-compound-double-pendulum)
-   - [Particle connected to a spool](#2-particle-connected-to-a-spool)
-   - [Particle on oscillating loop](#3-particle-on-oscillating-loop)
-3. [How to Use](#-how-to-use)
-4. [Requirements](#-requirements)
-5. [Download as .zip](#-Download as .zip)
-6. [Contribution](#-contribution)
-7. [License](#-license)
-
-
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .
-|-- Compound Double Pendulum
-|   |-- code
-|   |   |-- main_exp.m
-|   |   |-- main_num.m
-|   |   |-- poncaire.mat
-|   |   |-- tracked_positions.mat
-|   |-- Compound Double Pendulum.pdf
-|
-|-- Particle connected to a spool
-|   |-- code
-|   |   |-- main.m
-|   |-- Particle connected to a spool.pdf
-|
-|-- Particle on oscillating loop
-|   |-- code
-|   |   |-- main.m
-|   |-- Particle on oscillating loop.pdf
+├── Flow around an Airfoil/
+│   ├── Ansys/                  # ANSYS simulation files
+│   ├── Code/                   # MATLAB analysis scripts
+│   ├── XFLR5/                  # XFLR5 simulation data
+│   └── Flow around an Airfoil.pdf
+├── Jet impact on surfaces/
+│   ├── code/
+│   └── Jet impact on surfaces.pdf
+└── The 1D advection-diffusion equation/
+    ├── code/
+    └── The 1D advection-diffusion equation.pdf
 ```
 
-## 📂 Project Descriptions
+## Laboratory Sessions
 
-### 1. Compound Double Pendulum
-**Description:** Simulation of a compound double pendulum, exploring chaotic trajectories and nonlinear dynamics.
+### 1. Jet Impact on Surfaces
+Analysis of water jet impacts on different surface geometries:
+- Planar, hemispherical, and inclined surfaces
+- Force measurements and theoretical analysis
+- Experimental data collection and comparison with theoretical predictions
+- Calculation of drag coefficients and Reynolds numbers
 
-- **Main Files:**
-  - `main_exp.m` - Code for double pendulum experiments.
-  - `main_num.m` - Numerical simulation of the pendulum.
-  - `poncaire.mat` - Poincaré map data.
-  - `tracked_positions.mat` - Tracked positions during the experiment.
-- **Document:** `Compound Double Pendulum.pdf` - Theoretical explanation and results analysis.
+### 2. Flow around an Airfoil
+Study of aerodynamic characteristics using NACA2410 airfoil:
+- ANSYS Fluent simulations at various angles of attack
+- Pressure coefficient analysis
+- Velocity profile measurements
+- Lift coefficient calculations
+- Comparison with XFLR5 results
 
-### 2. Particle connected to a spool
-**Description:** Simulation of a particle connected to a spool, analyzing the system's dynamics. 
+### 3. The 1D Advection-Diffusion Equation
+Numerical analysis of fluid transport phenomena:
+- Implementation of 1D advection-diffusion equations
+- Computational fluid dynamics basics
+- Numerical methods application
 
-- **Main Files:**
-  - `main.m` - Code for the numerical simulation.
-- **Document:** `Particle connected to a spool.pdf` - Theoretical description and simulations.
+## Requirements
 
-### 3. Particle on oscillating loop
-**Description:** Analysis of a particle's movement on an oscillating loop, investigating trajectories and dynamic behavior.
+- MATLAB (for data analysis and plotting)
+- ANSYS Fluent (for airfoil simulations)
+- XFLR5 (for airfoil analysis)
 
-- **Main Files:**
-  - `main.m` - Code for the numerical simulation.
-- **Document:** `Particle on oscillating loop.pdf` - System analysis and graphics.
+## Usage
 
+Each laboratory session contains:
+1. A PDF report with theoretical background, methodology, and results
+2. Source code for data analysis and visualization
+3. Raw experimental data or simulation files
+4. Additional documentation specific to each experiment
 
-## 🚀 How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/user/repo
-   ```
-2. Navigate to the project of interest and open the .m files in MATLAB to run the simulations.
+## Authors
 
-3. Review the PDFs to understand the theoretical framework and the results of each simulation.
+Different laboratory sessions were completed by various student groups from the Aerospace Engineering program at UC3M, including:
+- Diego Delgado Madrigal
+- Marcos Cerezo Mandaloriz
+- Andrés Velázquez Vela
+- Marcos Augusto Caldas
+- Jesús Carrasco Ayala
 
-### 📦 Download as .zip
-If you prefer, you can download the entire repository as a .zip file:
+## Course Information
 
-1. Visit the repository page in GitHub.
-2. Click the green **Code** button.
-3. Select **Download ZIP** and extract the contents to your local directory.
+- **Institution**: Universidad Carlos III de Madrid (UC3M)
+- **Program**: Aerospace Engineering
+- **Course**: Fluid Mechanics
+- **Academic Year**: 2024
 
-## 🛠️ Requirements
-- MATLAB (Version 2020 or higher recommended)
+## License
 
-## 🤝 Contribution
-Contributions are welcome. If you want to add or improve a simulation, create a pull request or open an issue to discuss it.
-
-## 📄 License
-This project is free to use, modify, and distribute without restrictions.
-
+This repository is intended for educational purposes. All content can be freely used and modified for academic purposes while giving appropriate credit to the original authors.
