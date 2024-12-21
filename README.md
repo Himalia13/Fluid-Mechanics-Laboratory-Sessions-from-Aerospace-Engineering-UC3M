@@ -14,7 +14,7 @@ This repository contains the laboratory sessions for **Fluid Mechanics** in the 
 4. [Requirements](#-requirements)
 5. [Download as .zip](#-Download-as-.zip)
 6. [Authors](#-authors)
-7. [Course Description](#-course-description)
+7. [Course Information](#-course-description)
 8. [Contribution](#-contribution)
 9. [License](#-license)
 
