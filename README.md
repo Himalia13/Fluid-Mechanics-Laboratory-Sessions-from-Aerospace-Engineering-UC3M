@@ -5,8 +5,8 @@ This repository contains the laboratory sessions for **Fluid Mechanics** in the 
 ---
 
 ## 📑 Table of Contents
-1. [Repository Structure](#repository-structure)
-2. [Project Descriptions](#project-descriptions)
+1. [Repository Structure](#-repository-structure)
+2. [Project Descriptions](#-project-descriptions)
    - [Jet impact on surfaces](#1-jet-impact-on-surfaces)
    - [Flow around an Airfoil](#2-flow-around-an-Airfoil)
    - [The 1D advection-diffusion equation](#3-The-1D-advection-diffusion-equation)
@@ -75,18 +75,19 @@ Numerical analysis of fluid transport phenomena:
 - Raw experimental data or simulation files
 - Additional documentation specific to each experiment
 
-### 📦 Download as .zip
+## 🛠️ Requirements
+
+- MATLAB (for data analysis and plotting)
+- ANSYS Fluent (for airfoil simulations)
+- XFLR5 (for airfoil analysis)
+
+## 📦 Download as .zip
 If you prefer, you can download the entire repository as a .zip file:
 
 1. Visit the repository page in GitHub.
 2. Click the green **Code** button.
 3. Select **Download ZIP** and extract the contents to your local directory.
 
-## 🛠️ Requirements
-
-- MATLAB (for data analysis and plotting)
-- ANSYS Fluent (for airfoil simulations)
-- XFLR5 (for airfoil analysis)
 
 ## 👥 Authors
 
