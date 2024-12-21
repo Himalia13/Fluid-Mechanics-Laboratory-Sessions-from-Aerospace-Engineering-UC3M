@@ -63,7 +63,7 @@ Numerical analysis of fluid transport phenomena:
 ## 🚀 How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/user/repo
+   git clone https://github.com/Himalia13/Fluid-Mechanics-Laboratory-Sessions-from-Aerospace-Engineering-UC3M
    ```
 2. Navigate to the project of interest and open the .m files in MATLAB to run the simulations.
 
