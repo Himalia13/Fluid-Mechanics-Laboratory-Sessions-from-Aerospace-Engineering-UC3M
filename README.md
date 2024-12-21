@@ -39,20 +39,20 @@ This repository contains the laboratory sessions for **Fluid Mechanics** in the 
 
 ## 📂 Project Descriptions
 
-### 1. Jet Impact on Surfaces
-Analysis of water jet impacts on different surface geometries:
-- Planar, hemispherical, and inclined surfaces
-- Force measurements and theoretical analysis
-- Experimental data collection and comparison with theoretical predictions
-- Calculation of drag coefficients and Reynolds numbers
-
-### 2. Flow around an Airfoil
+### 1. Flow around an Airfoil
 Study of aerodynamic characteristics using NACA2410 airfoil:
 - ANSYS Fluent simulations at various angles of attack
 - Pressure coefficient analysis
 - Velocity profile measurements
 - Lift coefficient calculations
 - Comparison with XFLR5 results
+
+### 2. Jet Impact on Surfaces
+Analysis of water jet impacts on different surface geometries:
+- Planar, hemispherical, and inclined surfaces
+- Force measurements and theoretical analysis
+- Experimental data collection and comparison with theoretical predictions
+- Calculation of drag coefficients and Reynolds numbers
 
 ### 3. The 1D Advection-Diffusion Equation
 Numerical analysis of fluid transport phenomena:
